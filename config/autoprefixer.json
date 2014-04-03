@@ -1,0 +1,10 @@
+{
+	"options": {
+	  "browsers": ["last 10 version", "ie 8", "ie 9"]
+	},
+	"multiple_files": {
+  		"expand": true,
+		"src": "../assets/development/css/*.css"
+	}
+
+}

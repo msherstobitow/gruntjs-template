@@ -1,0 +1,10 @@
+{                         
+	"images": {                        
+  		"files": [{
+	        "expand": true,                 
+	        "cwd": "../assets/build/images/",                  
+	        "src": ["**/*.{png,jpg,gif}"],  
+	        "dest": "../assets/production/images/"                 
+      	}]
+    }
+}

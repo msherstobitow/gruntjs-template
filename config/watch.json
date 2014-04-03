@@ -1,0 +1,71 @@
+{
+  "js": {
+    "files": [
+      "../assets/development/js/*.js"
+    ],
+    "tasks": [
+      "copyto:js",
+      "concat:js",
+      "uglify"
+    ],
+    "options": {
+      "spawn": false
+    }
+  },
+  "stylus": {
+    "files": [
+      "../assets/development/stylus/style.styl"
+    ],
+    "tasks": [
+      "stylus",
+      "autoprefixer",
+      "csscomb:css"
+    ]
+  },
+  "stylus_ie": {
+    "files": [
+      "../assets/development/stylus/style_ie.styl"
+    ],
+    "tasks": [
+      "stylus",
+      "autoprefixer",
+      "csscomb:css_ie"
+    ]
+  },
+  "css": {
+    "files": [
+      "../assets/development/css/style.css"
+    ],
+    "tasks": [
+      "copyto:css",
+      "concat:css",
+      "cssmin:css"
+    ],
+    "options": {
+      "spawn": false
+    }
+  },
+  "css_ie": {
+    "files": [
+      "../assets/development/css/style_ie.css"
+    ],
+    "tasks": [
+      "copyto:css_ie",
+      "concat:css_ie",
+      "cssmin:css_ie"
+    ],
+    "options": {
+      "spawn": false
+    }
+  },
+  "livereload": {
+        "options": { "livereload": true },
+        "files": [
+          "../**/*.html", 
+          "../**/*.php",
+          "../assets/**/*.css", 
+          "../assets/**/*.js", 
+          "../assets/**/*.{png,jpg,jpeg,gif,webp,svg}"
+        ]
+    }
+}

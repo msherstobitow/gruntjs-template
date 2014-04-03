@@ -1,0 +1,18 @@
+{
+  "options": {
+    "compress": false
+  },
+  "build": {
+    "files": [
+      {
+        "expand": true,
+        "cwd": "../assets/development/stylus",
+        "src": [
+          "*.styl"
+        ],
+        "dest": "../assets/development/css",
+        "ext": ".css"
+      }
+    ]
+  }
+}

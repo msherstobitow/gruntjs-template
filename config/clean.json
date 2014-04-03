@@ -1,0 +1,8 @@
+{
+	"build": {
+		"options": { 
+			"force": true 
+		},
+		"src" : "../assets/build"
+	}
+}

@@ -1,0 +1,12 @@
+{
+    "css": {
+        "files": {
+            "../assets/development/css/style.css": "../assets/development/css/style.css"
+        }
+    },
+    "css_ie": {
+        "files": {
+            "../assets/development/css/style_ie.css": "../assets/development/css/style_ie.css"
+        }
+    }   
+}

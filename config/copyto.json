@@ -1,0 +1,41 @@
+{
+	"all": {
+		"files": [ 
+			{
+				"cwd": "../assets/development/",
+				"src": "**/*", 
+				"dest": "../assets/build/"	
+			}
+		],
+		"options": {
+			"ignore": "../assets/development/stylus{,/**/*}"		
+		}
+  	},
+  	"js": {
+		"files": [ 
+			{
+				"cwd": "../assets/development/js/",
+				"src": "**/*", 
+				"dest": "../assets/build/js/"	
+			}
+		]
+  	},
+  	"css": {
+  		"files": [
+  			{
+  				"cwd": "../assets/development/css/",
+				"src": "style.css", 
+				"dest": "../assets/build/css/"	
+			}
+  		]
+  	},
+  	"css_ie": {
+  		"files": [
+  			{
+  				"cwd": "../assets/development/css/",
+				"src": "style_ie.css", 
+				"dest": "../assets/build/css/"	
+			}
+  		]
+  	}
+}

@@ -1,0 +1,12 @@
+{
+	"css": {
+		"files" : {
+			"../assets/production/css/production.min.css": "../assets/production/css/production.css"
+		}
+	},
+	"css_ie": {
+		"files" : {
+		  	"../assets/production/css/production_ie.min.css": "../assets/production/css/production_ie.css"
+		}
+	}
+}

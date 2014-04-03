@@ -1,0 +1,8 @@
+{
+	"strict": {
+	    "options": {
+	      "import": 2
+	    },
+	    "src": "../assets/development/css/style.css"
+  	}
+}

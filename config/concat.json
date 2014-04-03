@@ -1,0 +1,17 @@
+{
+  "options": {
+    "separator": ";"
+  },
+  "js": {
+    "src": "../assets/build/js/*.js",
+    "dest": "../assets/production/js/production.js"
+  },
+  "css": {
+    "src": "../assets/build/css/style.css",
+    "dest": "../assets/production/css/production.css"
+  },
+  "css_ie": {
+    "src": "../assets/build/css/style_ie.css",
+    "dest": "../assets/production/css/production_ie.css"
+  }
+}

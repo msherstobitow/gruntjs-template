@@ -1,0 +1,6 @@
+{
+  "js": {
+    "src": "../assets/production/js/production.js",
+    "dest": "../assets/production/js/production.min.js"
+  }
+}
